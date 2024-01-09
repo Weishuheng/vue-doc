@@ -67,4 +67,4 @@
 ```
 
   # 6、启动项目
-      npm start
+      npm run local
