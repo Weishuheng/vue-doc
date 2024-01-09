@@ -1,0 +1,176 @@
+
+//@origin-prefix: origin;
+/**
+	* Author: weishuheng
+	* Time: 2013-12-02
+	* base.css 为全局样式表，所包含的样式都为全局样式
+	* base.css 原则上创建后不再进行修改，若修改应该是只能添加而不能删除
+	* base.css 为网站所有页面都必须引用的css
+**/
+/** 全局样式 **/
+
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,input{margin:0;}
+ol,ul{margin:0; padding:0;}
+textarea{padding:0;}
+body{ font-family:tahoma,helvetica,'Hiragino Sans GB','Microsoft Yahei','simsun','sans-serif'; font-size:12px; color:#2e2e2e}
+input,textarea,select,button{ font-size:12px; outline:none;}
+table,td{ border:none; border-collapse:collapse; font-size:12px; }
+div{word-wrap:break-word; }
+ul{ list-style:none; }
+em,i{ font-style:normal; font-weight:normal; }
+img{border:none; vertical-align: middle; }
+/* *消除A标签选中时的虚线框* */
+a { outline-style: none; text-decoration: none; }
+/** 字体 **/
+.fb{ font-weight:bold; }
+.fn{ font-weight:normal; }
+.f12{ font-size:12px; }
+.fb12{ font-size:12px; font-weight:bold; }
+.f14{ font-size:14px; }
+.fb14{ font-size:14px; font-weight:bold; }
+.f16{ font-size:16px; }
+.fb16{ font-size:16px; font-weight:bold; }
+.f18{ font-size:18px; }
+.fb18{ font-size:18px; font-weight:bold; }
+
+/** 颜色 **/
+.cf,a.cf{ color:#fff; }
+.ce,a.ce{ color:#eee; }
+.cd,a.cd{ color:#ddd; }
+.cc,a.cc{ color:#ccc; }
+.c9,a.c9{ color:#999; }
+.c6,a.c6{ color:#666; }
+.c3,a.c3{ color:#333; }
+.c0,a.c0{ color:#000; }
+
+/** padding **/
+.p3{ padding:3px; }
+.p5{ padding:5px; }
+.p10{ padding:10px; }
+.p15{ padding:15px; }
+.p20{ padding:20px; }
+.p25{ padding:25px; }
+.p30{ padding:30px; }
+.pt3{ padding-top:3px; }
+.pt5{ padding-top:5px; }
+.pt10{ padding-top:10px; }
+.pt15{ padding-top:15px; }
+.pt20{ padding-top:20px; }
+.pt25{ padding-top:25px; }
+.pt30{ padding-top:30px; }
+.pb3{ padding-bottom:3px; }
+.pb5{ padding-bottom:5px; }
+.pb10{ padding-bottom:10px; }
+.pb15{ padding-bottom:15px; }
+.pb20{ padding-bottom:20px; }
+.pb25{ padding-bottom:25px; }
+.pb30{ padding-bottom:30px; }
+.pl3{ padding-left:3px; }
+.pl5{ padding-left:5px; }
+.pl10{ padding-left:10px; }
+.pl15{ padding-left:15px; }
+.pl20{ padding-left:20px; }
+.pl25{ padding-left:25px; }
+.pl30{ padding-left:30px; }
+.pr3{ padding-right:3px; }
+.pr5{ padding-right:5px; }
+.pr10{ padding-right:10px; }
+.pr15{ padding-right:15px; }
+.pr20{ padding-right:20px; }
+.pr25{ padding-right:25px; }
+.pr30{ padding-right:30px; }
+
+/** margin **/
+.m3{ margin:3px; }
+.m5{ margin:5px; }
+.m10{ margin:10px; }
+.m15{ margin:15px; }
+.m20{ margin:20px; }
+.m25{ margin:25px; }
+.m30{ margin:30px; }
+.mt3{ margin-top:3px; }
+.mt5{ margin-top:5px; }
+.mt10{ margin-top:10px; }
+.mt15{ margin-top:15px; }
+.mt20{ margin-top:20px; }
+.mt25{ margin-top:25px; }
+.mt30{ margin-top:30px; }
+.mb3{ margin-bottom:3px; }
+.mb5{ margin-bottom:5px; }
+.mb10{ margin-bottom:10px; }
+.mb15{ margin-bottom:15px; }
+.mb20{ margin-bottom:20px; }
+.mb25{ margin-bottom:25px; }
+.mb30{ margin-bottom:30px; }
+.ml3{ margin-left:3px; }
+.ml5{ margin-left:5px; }
+.ml10{ margin-left:10px; }
+.ml15{ margin-left:15px; }
+.ml20{ margin-left:20px; }
+.ml25{ margin-left:25px; }
+.ml30{ margin-left:30px; }
+.mr3{ margin-right:3px; }
+.mr5{ margin-right:5px; }
+.mr10{ margin-right:10px; }
+.mr15{ margin-right:15px; }
+.mr20{ margin-right:20px; }
+.mr25{ margin-right:25px; }
+.mr30{ margin-right:30px; }
+.m_auto{ margin:0 auto; }
+.m0_10{ margin:0 10px; }
+.m0_15{ margin:0 15px; }
+.m0_20{ margin:0 20px; }
+.m0_30{ margin:0 30px; }
+
+/** z-index **/
+.z1{ z-index:1; }
+.z10{ z-index:10; }
+.z20{ z-index:20; }
+.z30{ z-index:30; }
+.z40{ z-index:40; }
+.z50{ z-index:50; }
+.z60{ z-index:60; }
+.z70{ z-index:70; }
+.z80{ z-index:80; }
+.z90{ z-index:90; }
+.z100{ z-index:100; }
+.z200{ z-index:200; }
+.z300{ z-index:300; }
+.z400{ z-index:400; }
+.z500{ z-index:500; }
+.z800{ z-index:800; }
+.z900{ z-index:900; }
+.z999{ z-index:999; }
+
+/** 常见设置 **/
+.c{ clear:both; }
+.clearfix:after{content:""; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix{ *zoom:1; }
+.l{ float:left; _display:inline; }
+.r{ float:right; _display:inline; }
+.dn{ display:none; }
+.db{ display:block; }
+.dib{ display:inline-block; *zoom:1; *display:inline; }
+.df{ display: flex; }
+.dif{ display: inline-flex; }
+.cp{ cursor:pointer; }
+.cd{ cursor:default; }
+.tal{ text-align:left; }
+.tar{ text-align:right; }
+.tac{ text-align:center; }
+.vam{ vertical-align:middle; }
+.vat{ vertical-align:top; }
+.vab{ vertical-align:bottom;}
+.vv{ visibility:visible; }
+.vh{ visibility:hidden; }
+.poa{ position:absolute; }
+.por{ position:relative; }
+
+/* .cn{ font-family: myFont, "Microsoft Yahei",Arial,sans-serif; }
+.en{ font-family: myFont,"Helvetica Neue",Arial,sans-serif} */
+.fb{ font-weight:bold; font-family: myFontBold;}
+.fn{ font-weight:normal; font-family: myFont; }
+.cn .fb{ font-weight:bold; font-family: myFontBold;}
+.cn .fn{ font-weight:normal; font-family: myFont; }
+.en .fb12,.en .fb14,.en .fb16,.en .fb18{ font-family: myFontBold,"Helvetica Neue",Arial,sans-serif;}
+.cn .fb12,.cn .fb14,.cn .fb16,.cn .fb18{ font-family: myFontBold,"Microsoft Yahei",Arial,sans-serif;}
